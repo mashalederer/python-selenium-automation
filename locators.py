@@ -34,7 +34,7 @@ driver.find_element(By.XPATH, '//input[@tabindex="0" and @name="field-keywords"]
 
 driver.find_element(By.XPATH, '//*[@tabindex="0" and @name="field-keywords"]')
 
-# by Xpath, using text
+# by Xpath, using text $x("//h1[contains(text(),'Create account')]")
 
 driver.find_element(By.XPATH, '//a[text()="Best Sellers" and @class="nav-a  "]')
 
